@@ -121,6 +121,12 @@ ul#linkspage {
       width: 48px;
       height: 48px;
       margin: 0 6px -16px 0; }
+    .tm-icon-list li a:hover {
+      -webkit-filter: grayscale(100%);
+              filter: grayscale(100%);
+      -webkit-transition: all 0.25s ease;
+      transition: all 0.25s ease;
+      text-decoration: none; }
     .tm-icon-list li a.plus:before {
       background-position: left top; }
     .tm-icon-list li a.twitter:before {
