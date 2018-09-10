@@ -1,0 +1,120 @@
+/*
+ Theme Name:   Type Child
+ Theme URI:    https://myrthco.com
+ Description:  Child Theme for Type
+ Author:       Topher McCulloch
+ Author URI:   http://tophermcculloch.com
+ Template:     type
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags: custom-background, custom-colors, custom-header, custom-menu, custom-logo, featured-images, flexible-header, footer-widgets, full-width-template, one-column, post-formats, right-sidebar, sticky-post, theme-options, translation-ready, two-columns, blog, e-commerce
+ Text Domain:  type-child
+*/
+
+/* Links Page */
+ul#linkspage {
+	margin: 0;
+	padding: 0;
+}
+.linkcat {
+	list-style-type: none;
+	float: left;
+	width: 25%;
+	margin: 0;
+	padding: 0 20px 10px 0;
+	box-sizing: border-box;
+}
+.linkcat:last-child {
+	padding-right: 0;
+}
+.linkcat ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.blogroll li {
+	margin-bottom: 10px;
+}
+
+/* Social Links 
+
+#social-links {
+	background: #ff4b33;
+	text-align: center;
+	margin: 2.25em 0 0;
+}
+
+#social-links h2 {
+	color: #fff;
+	margin-top: 0;
+	text-shadow: 0 1px 2px #b83625;
+}
+
+ul.social-links {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.social-links li {
+	float: left;	
+	text-indent: -9999px;
+	list-style-type: none;	
+	margin: 0 20px 3px 0;
+}
+
+.social-links li:last-child {
+	margin-right: 0;
+}
+
+.social-links a {
+	display: block;
+	width: 48px;
+	height: 47px;
+	background: transparent url(images/tm_social_icons.png) left top no-repeat;
+}
+
+.social-links a:hover {
+	opacity: 0.8;	
+}
+
+.social-links .msaed {
+	background-position: -49px 0;
+}
+.social-links .cpa {
+	background-position: -98px 0;
+}
+.social-links .milk {
+	background-position: top right;
+}
+.social-links .flickr {
+	background-position: left bottom;
+}
+.social-links .behance {
+	background-position: -49px -48px;
+}
+.social-links .youtube {
+	background-position: -97px -48px;
+}
+.social-links .facebook {
+	background-position: bottom right;
+}*/
+.entry-thumbnail {
+margin: 30px auto;
+}
+
+.page-template-about .content-area {
+float: none;
+width: 100%;
+}
+
+.page-template-about .entry-header,
+.page-template-about .entry-content,
+.page-template-about .entry-footer,
+.page-template-about .comments-area {
+max-width: 760px;
+margin-left: auto;
+margin-right: auto;
+}
