@@ -108,7 +108,7 @@ ul#linkspage {
 
 .tm-icon-list {
   list-style-type: none;
-  margin: 0;
+  margin: 0 0 30px 0;
   padding: 0; }
   .tm-icon-list li a {
     display: block;
@@ -159,58 +159,52 @@ ul#linkspage {
       background-position: -96px -144px; }
     .tm-icon-list li a.github:before {
       background-position: -144px -144px; }
-
-.tm-personal-icon-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0; }
-  .tm-personal-icon-list li a {
-    display: block;
-    margin-bottom: 12px; }
-    .tm-personal-icon-list li a:before {
-      content: "";
-      display: inline-block;
+    .tm-icon-list li a.link:before {
       background-image: url(images/tm_personal_icons.svg);
-      background-repeat: no-repeat;
-      width: 48px;
-      height: 48px;
-      margin: 0 6px -16px 0; }
-    .tm-personal-icon-list li a:hover {
-      -webkit-filter: grayscale(100%);
-              filter: grayscale(100%);
-      -webkit-transition: all 0.25s ease;
-      transition: all 0.25s ease;
-      text-decoration: none; }
-    .tm-personal-icon-list li a.link:before {
       background-position: left top; }
-    .tm-personal-icon-list li a.topher:before {
+    .tm-icon-list li a.topher:before {
+      background-image: url(images/tm_personal_icons.svg);
       background-position: -48px top; }
-    .tm-personal-icon-list li a.totes-cute:before {
+    .tm-icon-list li a.totes-cute:before {
+      background-image: url(images/tm_personal_icons.svg);
       background-position: -96px top; }
-    .tm-personal-icon-list li a.milkcats:before {
+    .tm-icon-list li a.milkcats:before {
+      background-image: url(images/tm_personal_icons.svg);
       background-position: -144px top; }
-    .tm-personal-icon-list li a.cpa:before {
+    .tm-icon-list li a.cpa:before {
+      background-image: url(images/tm_personal_icons.svg);
       background-position: left -48px; }
-    .tm-personal-icon-list li a.myrthco:before {
+    .tm-icon-list li a.myrthco:before {
+      background-image: url(images/tm_personal_icons.svg);
       background-position: -48px -48px; }
-    .tm-personal-icon-list li a.tophr:before {
+    .tm-icon-list li a.tophr:before {
+      background-image: url(images/tm_personal_icons.svg);
       background-position: -96px -48px; }
-    .tm-personal-icon-list li a.chicagoirl:before {
+    .tm-icon-list li a.chicagoirl:before {
+      background-image: url(images/tm_personal_icons.svg);
       background-position: -144px -48px; }
-    .tm-personal-icon-list li a.yukhut:before {
+    .tm-icon-list li a.yukhut:before {
+      background-image: url(images/tm_personal_icons.svg);
       background-position: left -96px; }
-    .tm-personal-icon-list li a.isyouis:before {
+    .tm-icon-list li a.isyouis:before {
+      background-image: url(images/tm_personal_icons.svg);
       background-position: -48px -96px; }
-    .tm-personal-icon-list li a.lovenothingday:before {
+    .tm-icon-list li a.lovenothingday:before {
+      background-image: url(images/tm_personal_icons.svg);
       background-position: -96px -96px; }
-    .tm-personal-icon-list li a.katebush:before {
+    .tm-icon-list li a.katebush:before {
+      background-image: url(images/tm_personal_icons.svg);
       background-position: -144px -96px; }
-    .tm-personal-icon-list li a.mercury:before {
+    .tm-icon-list li a.mercury:before {
+      background-image: url(images/tm_personal_icons.svg);
       background-position: left -144px; }
-    .tm-personal-icon-list li a.open1:before {
+    .tm-icon-list li a.saatchi:before {
+      background-image: url(images/tm_personal_icons.svg);
       background-position: -48px -144px; }
-    .tm-personal-icon-list li a.open2:before {
+    .tm-icon-list li a.open2:before {
+      background-image: url(images/tm_personal_icons.svg);
       background-position: -96px -144px; }
-    .tm-personal-icon-list li a.open3:before {
+    .tm-icon-list li a.open3:before {
+      background-image: url(images/tm_personal_icons.svg);
       background-position: -144px -144px; }
 /*# sourceMappingURL=style.css.map */
