@@ -199,3 +199,75 @@ margin-right: auto;
 		}
 	}
 }
+
+.tm-personal-icon-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	li a {
+		display: block;
+		margin-bottom: 12px;
+		&:before {
+			content: "";
+    		display: inline-block;
+			background-image: url(images/tm_personal_icons.svg);
+			background-repeat: no-repeat;
+			width: 48px;
+			height: 48px;
+			margin: 0 6px -16px 0;			
+		}	
+		&:hover {
+			filter: grayscale(100%);
+			transition: all 0.25s ease;
+			text-decoration: none;
+		}
+		&.link:before {
+			background-position: left top;
+		}
+		&.topher:before {
+			background-position: -48px top;
+		}
+		&.totes-cute:before {
+			background-position: -96px top;
+		}
+		&.milkcats:before {
+			background-position: -144px top;
+		}
+		&.cpa:before {
+			background-position: left -48px;
+		}
+		&.myrthco:before {
+			background-position: -48px -48px;
+		}
+		&.tophr:before {
+			background-position: -96px -48px;
+		}
+		&.chicagoirl:before {
+			background-position: -144px -48px;
+		}
+		&.yukhut:before {
+			background-position: left -96px;
+		}
+		&.isyouis:before {
+			background-position: -48px -96px;
+		}
+		&.lovenothingday:before {
+			background-position: -96px -96px;
+		}
+		&.katebush:before {
+			background-position: -144px -96px;
+		}		
+		&.mercury:before {
+			background-position: left -144px;
+		}
+		&.open1:before {
+			background-position: -48px -144px;
+		}
+		&.open2:before {
+			background-position: -96px -144px;
+		}
+		&.open3:before {
+			background-position: -144px -144px;
+		}
+	}
+}
