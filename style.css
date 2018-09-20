@@ -42,14 +42,19 @@ ul#linkspage {
 .entry-thumbnail {
   margin: 30px auto; }
 
-.page-template-about .content-area {
+.page-template-about .content-area,
+.page-template-sub-category .content-area {
   float: none;
   width: 100%; }
 
 .page-template-about .entry-header,
 .page-template-about .entry-content,
 .page-template-about .entry-footer,
-.page-template-about .comments-area {
+.page-template-about .comments-area,
+.page-template-sub-category .entry-header,
+.page-template-sub-category .entry-content,
+.page-template-sub-category .entry-footer,
+.page-template-sub-category .comments-area {
   max-width: 760px;
   margin-left: auto;
   margin-right: auto; }
