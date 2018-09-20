@@ -23,6 +23,13 @@
 		"oAP": "\/about.php",
 		"oF": 0
 		},
+	"\/custom-archive.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/custom-archive.php",
+		"oF": 0
+		},
 	"\/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -49,6 +56,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/social_icons.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/tm_personal_icons.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/tm_personal_icons.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
