@@ -32,7 +32,6 @@ get_header(); ?>
 
 				get_template_part( 'template-parts/page/content', 'page' );
 
-				// If comments are open or we have at least one comment, load up the comment template.
 				if ( comments_open() || get_comments_number() ) :
 					comments_template();
 				endif;
@@ -50,15 +49,17 @@ get_header(); ?>
 			  <div class="row page-thumbs"> 
 			  <?php foreach( $pages as $page ) { ?>
 			   <div class="col-sm-6">
-				  <a href="<?php echo  get_permalink($page->ID); ?>" rel="bookmark" title="<?php echo $page->post_title; ?>">
-					  <span class="thumbnail"><?php echo get_the_post_thumbnail($page->ID, 'type-medium'); ?></span>
-					  <h3 class="title"><?php echo $page->post_title; ?></h3>
-					  <span class="desc"><?php echo $page->post_excerpt; ?></span>
-				  </a>
-			  </div>
+				   <div class="featured-item featured-large" style="background-image: url(<?php echo get_the_post_thumbnail_url($page->ID, 'type-medium'); ?>)">
+					   <a href="<?php echo  get_permalink($page->ID); ?>" rel="bookmark" title="<?php echo $page->post_title; ?>" class="featured-link"></a>
+					   <div class="featured-overlay">
+						   <!--<div class="entry-meta"><span class="posted-on"><?php echo get_the_date( 'Y', $page->ID ); ?></span></div>-->
+						   <h4 class="entry-title"><a href="<?php echo  get_permalink($page->ID); ?>"><?php echo $page->post_title; ?></a></h4>
+						   <div class="desc"><?php echo $page->post_excerpt; ?></div>
+						 </div>
+					  </div>
+				  </div>				  
 			  <?php } ?>
-			  </div>
-			
+			  </div>			
 			
 		</main><!-- #main -->
 	</div><!-- #primary -->

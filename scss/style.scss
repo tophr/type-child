@@ -5,7 +5,7 @@
  Author:       Topher McCulloch
  Author URI:   http://tophermcculloch.com/
  Template:     type
- Version:      1.0.2
+ Version:      1.0.3 
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags: custom-background, custom-colors, custom-header, custom-menu, custom-logo, featured-images, flexible-header, footer-widgets, full-width-template, one-column, post-formats, right-sidebar, sticky-post, theme-options, translation-ready, two-columns, blog, e-commerce
@@ -273,3 +273,34 @@ margin-right: auto;
 	}
 }
 
+/* Sub-Category Landing Page */
+.page-thumbs {
+	.thumb-box {
+		margin-bottom: 30px;
+	}
+	.thumbnail {
+		img {
+			width: 100%;
+			height: 300px;
+			object-fit: cover;
+		}
+	}	
+	.title {
+		margin-top: 0;
+	}
+}
+
+.page-template-sub-category {
+	.featured-item {
+		height: 300px;
+		margin-bottom: 20px;
+		.desc {
+			font-size: 1.25em;
+			line-height: 1.3;
+			color: #fff;			
+		}
+	}
+	.featured-overlay {
+		background: linear-gradient(to top,rgba(0,0,0,.7) 0,rgba(0,0,0,0) 100%);
+	}
+}
