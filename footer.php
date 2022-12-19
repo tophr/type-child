@@ -73,6 +73,7 @@
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
+<span id="mobile-sidebar-overlay" on="tap:AMP.setState({ampmenu: !ampmenu})" class="mobile-sidebar-overlay"></span>
 <?php wp_footer(); ?>
 
 </body>
