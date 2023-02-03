@@ -1,11 +1,11 @@
-/*
+/*!
  Theme Name:   Type Child
  Theme URI:    https://myrthco.com/
  Description:  Child Theme for Type
  Author:       Topher McCulloch
  Author URI:   http://tophermcculloch.com/
  Template:     type
- Version:      1.0.3 
+ Version:      1.0.5
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags: custom-background, custom-colors, custom-header, custom-menu, custom-logo, featured-images, flexible-header, footer-widgets, full-width-template, one-column, post-formats, right-sidebar, sticky-post, theme-options, translation-ready, two-columns, blog, e-commerce
@@ -13,43 +13,43 @@
 */
 
 #next {
-	text-align: right;
+  text-align: right;
 }
 
 /* Links Page */
 ul#linkspage {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .linkcat {
-	list-style-type: none;
-	float: left;
-	width: 25%;
-	margin: 0;
-	padding: 0 20px 10px 0;
-	box-sizing: border-box;
+  list-style-type: none;
+  float: left;
+  width: 25%;
+  margin: 0;
+  padding: 0 20px 10px 0;
+  box-sizing: border-box;
 }
 .linkcat:last-child {
-	padding-right: 0;
+  padding-right: 0;
 }
 .linkcat ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .blogroll li {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .entry-thumbnail {
-margin: 30px auto;
+  margin: 30px auto;
 }
 
 .page-template-about .content-area,
 .page-template-sub-category .content-area {
-float: none;
-width: 100%;
+  float: none;
+  width: 100%;
 }
 
 .page-template-about .entry-header,
@@ -59,248 +59,264 @@ width: 100%;
 .page-template-sub-category .entry-header,
 .page-template-sub-category .entry-content,
 .page-template-sub-category .entry-footer,
-.page-template-sub-category .comments-area{
-max-width: 760px;
-margin-left: auto;
-margin-right: auto;
+.page-template-sub-category .comments-area {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Social Icons */
 .tm-social-icons {
-	list-style-type: none;
-	clear: both;
-	margin: 0;
-	li {
-		display: inline;
-		background-image: url(images/social_icons.svg);
-		background-repeat: no-repeat;
-		filter: grayscale(100%);
-		transition: all 0.25s ease;
-		&:hover {
-			filter: none;
-		}
-	}
-	a {
-		display: block;
-		width: 48px;
-		height: 48px;
-		text-indent: -9999px;
-		margin: 0 9px 9px 0;		
-	}
-	.plus {
-		background-position: left top;
-	}
-	.twitter {
-		background-position: -49px top;
-	}
-	.flickr {
-		background-position: -96px top;
-	}
-	.linkedin {
-		background-position: -144px top;
-	}
-	.youtube {
-		background-position: left -48px;
-	}
-	.vimeo {
-		background-position: -48px -48px;
-	}
-	.lastfm {
-		background-position: -96px -48px;
-	}
-	.behance {
-		background-position: -144px -48px;
-	}
-	.facebook {
-		background-position: left -96px;
-	}
-	.instagram {
-		background-position: -48px -96px;
-	}
-	.tumblr {
-		background-position: -96px -96px;
-	}
-	.pinterest {
-		background-position: -144px -96px;
-	}
-	.snapchat {
-		background-position: left -144px;
-	}
-	.dribbble {
-		background-position: -48px -144px;
-	}
-	.medium {
-		background-position: -96px -144px;
-	}
-	.github {
-		background-position: -144px -144px;
-	}	
+  list-style-type: none;
+  clear: both;
+  margin: 0;
+  li {
+    display: inline;
+    background-image: url(images/social_icons.svg);
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    transition: all 0.25s ease;
+    &:hover {
+      filter: none;
+    }
+  }
+  a {
+    display: block;
+    width: 48px;
+    height: 48px;
+    text-indent: -9999px;
+    margin: 0 9px 9px 0;
+  }
+  .plus {
+    background-position: left top;
+  }
+  .twitter {
+    background-position: -48px top;
+  }
+  .flickr {
+    background-position: -96px top;
+  }
+  .linkedin {
+    background-position: -144px top;
+  }
+  .youtube {
+    background-position: left -48px;
+  }
+  .vimeo {
+    background-position: -48px -48px;
+  }
+  .lastfm {
+    background-position: -96px -48px;
+  }
+  .behance {
+    background-position: -144px -48px;
+  }
+  .facebook {
+    background-position: left -96px;
+  }
+  .instagram {
+    background-position: -48px -96px;
+  }
+  .tumblr {
+    background-position: -96px -96px;
+  }
+  .pinterest {
+    background-position: -144px -96px;
+  }
+  .snapchat {
+    background-position: left -144px;
+  }
+  .dribbble {
+    background-position: -48px -144px;
+  }
+  .medium {
+    background-position: -96px -144px;
+  }
+  .github {
+    background-position: -144px -144px;
+  }
+  .mastodon a {
+    background-position: left -192px;
+  }
+  .spotify a {
+    background-position: -48px -192px;
+  }
 }
 
 .tm-icon-list {
-	list-style-type: none;
-	margin: 0 0 30px 0;
-	padding: 0;
-	li a {
-		display: block;
-		margin-bottom: 12px;
-		&:before {
-			content: "";
-    		display: inline-block;
-			background-image: url(images/social_icons.svg);
-			background-repeat: no-repeat;
-			width: 48px;
-			height: 48px;
-			margin: 0 6px -16px 0;			
-		}	
-		&:hover {
-			filter: grayscale(100%);
-			transition: all 0.25s ease;
-			text-decoration: none;
-		}
-		&.plus:before {
-			background-position: left top;
-		}
-		&.twitter:before {
-			background-position: -49px top;
-		}
-		&.flickr:before {
-			background-position: -96px top;
-		}
-		&.linkedin:before {
-			background-position: -144px top;
-		}
-		&.youtube:before {
-			background-position: left -48px;
-		}
-		&.vimeo:before {
-			background-position: -48px -48px;
-		}
-		&.lastfm:before {
-			background-position: -96px -48px;
-		}
-		&.behance:before {
-			background-position: -144px -48px;
-		}
-		&.facebook:before {
-			background-position: left -96px;
-		}
-		&.instagram:before {
-			background-position: -48px -96px;
-		}
-		&.tumblr:before {
-			background-position: -96px -96px;
-		}
-		&.pinterest:before {
-			background-position: -144px -96px;
-		}		
-		&.snapchat:before {
-			background-position: left -144px;
-		}
-		&.dribbble:before {
-			background-position: -48px -144px;
-		}
-		&.medium:before {
-			background-position: -96px -144px;
-		}
-		&.github:before {
-			background-position: -144px -144px;
-		}
-		&.link:before {
-			background-image: url(images/tm_personal_icons.svg);
-			background-position: left top;
-		}
-		&.topher:before {
-			background-image: url(images/tm_personal_icons.svg);
-			background-position: -48px top;
-		}
-		&.totes-cute:before {
-			background-image: url(images/tm_personal_icons.svg);
-			background-position: -96px top;
-		}
-		&.milkcats:before {
-			background-image: url(images/tm_personal_icons.svg);
-			background-position: -144px top;
-		}
-		&.cpa:before {
-			background-image: url(images/tm_personal_icons.svg);
-			background-position: left -48px;
-		}
-		&.myrthco:before {
-			background-image: url(images/tm_personal_icons.svg);
-			background-position: -48px -48px;
-		}
-		&.tophr:before {
-			background-image: url(images/tm_personal_icons.svg);
-			background-position: -96px -48px;
-		}
-		&.chicagoirl:before {
-			background-image: url(images/tm_personal_icons.svg);
-			background-position: -144px -48px;
-		}
-		&.yukhut:before {
-			background-image: url(images/tm_personal_icons.svg);
-			background-position: left -96px;
-		}
-		&.isyouis:before {
-			background-image: url(images/tm_personal_icons.svg);
-			background-position: -48px -96px;
-		}
-		&.lovenothingday:before {
-			background-image: url(images/tm_personal_icons.svg);
-			background-position: -96px -96px;
-		}
-		&.katebush:before {
-			background-image: url(images/tm_personal_icons.svg);
-			background-position: -144px -96px;
-		}		
-		&.mercury:before {
-			background-image: url(images/tm_personal_icons.svg);
-			background-position: left -144px;
-		}
-		&.saatchi:before {
-			background-image: url(images/tm_personal_icons.svg);
-			background-position: -48px -144px;
-		}
-		&.open2:before {
-			background-image: url(images/tm_personal_icons.svg);
-			background-position: -96px -144px;
-		}
-		&.open3:before {
-			background-image: url(images/tm_personal_icons.svg);
-			background-position: -144px -144px;
-		}
+  list-style-type: none;
+  margin: 0 0 30px 0;
+  padding: 0;
+  li a {
+    display: block;
+    margin-bottom: 12px;
+    &:before {
+      content: "";
+      display: inline-block;
+      background-image: url(images/social_icons.svg);
+      background-repeat: no-repeat;
+      width: 48px;
+      height: 48px;
+      margin: 0 6px -16px 0;
+    }
+    &:hover {
+      filter: grayscale(100%);
+      transition: all 0.25s ease;
+      text-decoration: none;
+    }
+    &.plus:before {
+      background-position: left top;
+    }
+    &.twitter:before {
+      background-position: -48px top;
+    }
+    &.flickr:before {
+      background-position: -96px top;
+    }
+    &.linkedin:before {
+      background-position: -144px top;
+    }
+    &.youtube:before {
+      background-position: left -48px;
+    }
+    &.vimeo:before {
+      background-position: -48px -48px;
+    }
+    &.lastfm:before {
+      background-position: -96px -48px;
+    }
+    &.behance:before {
+      background-position: -144px -48px;
+    }
+    &.facebook:before {
+      background-position: left -96px;
+    }
+    &.instagram:before {
+      background-position: -48px -96px;
+    }
+    &.tumblr:before {
+      background-position: -96px -96px;
+    }
+    &.pinterest:before {
+      background-position: -144px -96px;
+    }
+    &.snapchat:before {
+      background-position: left -144px;
+    }
+    &.dribbble:before {
+      background-position: -48px -144px;
+    }
+    &.medium:before {
+      background-position: -96px -144px;
+    }
+    &.github:before {
+      background-position: -144px -144px;
+    }
+	&.mastodon:before {
+		background-position: left -192px;
 	}
+	&.spotify:before {
+	background-position: -48px -192px;
+	}
+    &.link:before {
+      background-image: url(images/tm_personal_icons.svg);
+      background-position: left top;
+    }
+    &.topher:before {
+      background-image: url(images/tm_personal_icons.svg);
+      background-position: -48px top;
+    }
+    &.totes-cute:before {
+      background-image: url(images/tm_personal_icons.svg);
+      background-position: -96px top;
+    }
+    &.milkcats:before {
+      background-image: url(images/tm_personal_icons.svg);
+      background-position: -144px top;
+    }
+    &.cpa:before {
+      background-image: url(images/tm_personal_icons.svg);
+      background-position: left -48px;
+    }
+    &.myrthco:before {
+      background-image: url(images/tm_personal_icons.svg);
+      background-position: -48px -48px;
+    }
+    &.tophr:before {
+      background-image: url(images/tm_personal_icons.svg);
+      background-position: -96px -48px;
+    }
+    &.chicagoirl:before {
+      background-image: url(images/tm_personal_icons.svg);
+      background-position: -144px -48px;
+    }
+    &.yukhut:before {
+      background-image: url(images/tm_personal_icons.svg);
+      background-position: left -96px;
+    }
+    &.isyouis:before {
+      background-image: url(images/tm_personal_icons.svg);
+      background-position: -48px -96px;
+    }
+    &.lovenothingday:before {
+      background-image: url(images/tm_personal_icons.svg);
+      background-position: -96px -96px;
+    }
+    &.katebush:before {
+      background-image: url(images/tm_personal_icons.svg);
+      background-position: -144px -96px;
+    }
+    &.mercury:before {
+      background-image: url(images/tm_personal_icons.svg);
+      background-position: left -144px;
+    }
+    &.saatchi:before {
+      background-image: url(images/tm_personal_icons.svg);
+      background-position: -48px -144px;
+    }
+    &.open2:before {
+      background-image: url(images/tm_personal_icons.svg);
+      background-position: -96px -144px;
+    }
+    &.open3:before {
+      background-image: url(images/tm_personal_icons.svg);
+      background-position: -144px -144px;
+    }
+  }
 }
 
 /* Sub-Category Landing Page */
 .page-thumbs {
-	.thumb-box {
-		margin-bottom: 30px;
-	}
-	.thumbnail {
-		img {
-			width: 100%;
-			height: 300px;
-			object-fit: cover;
-		}
-	}	
-	.title {
-		margin-top: 0;
-	}
+  .thumb-box {
+    margin-bottom: 30px;
+  }
+  .thumbnail {
+    img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+  .title {
+    margin-top: 0;
+  }
 }
 
 .page-template-sub-category {
-	.featured-item {
-		height: 300px;
-		margin-bottom: 20px;
-		.desc {
-			font-size: 1.25em;
-			line-height: 1.3;
-			color: #fff;			
-		}
-	}
-	.featured-overlay {
-		background: linear-gradient(to top,rgba(0,0,0,.7) 0,rgba(0,0,0,0) 100%);
-	}
+  .featured-item {
+    height: 300px;
+    margin-bottom: 20px;
+    .desc {
+      font-size: 1.25em;
+      line-height: 1.3;
+      color: #fff;
+    }
+  }
+  .featured-overlay {
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.7) 0,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
 }
