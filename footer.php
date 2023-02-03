@@ -63,7 +63,7 @@
 					</div>
 					<div class="col-6 col-sm-12">
 						<div class="site-info">
-							<a href="http://www.youtube.com/watch?v=JKD2BxyriBM&amp;feature=player_embedded" target="_blank" rel="nofollow">&pi;</a>
+							<a href="https://www.youtube.com/watch?v=hoWEYBSlctc" target="_blank" rel="nofollow">&pi;</a>
 						</div><!-- .site-info -->
 					</div>
 				</div>
