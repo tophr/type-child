@@ -45,7 +45,7 @@ get_header(); ?>
 					<?php /* Start the Loop */
 					while ( $my_query->have_posts() ) : $my_query->the_post(); ?>
 						<div class="post-wrapper <?php echo $post_column; ?>">
-							<?php get_template_part( 'template-parts/post/content', $post_template ); ?>
+							<?php get_template_part( 'template-parts/post/content' ); ?>
 						</div>
 					<?php endwhile; ?>				
 		
