@@ -16,7 +16,6 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		
 		<?php if ( is_active_sidebar( 'footer-1' ) || is_active_sidebar( 'footer-2' ) || is_active_sidebar( 'footer-3' ) ) : ?>
 			<div class="widget-area" role="complementary">
 				<div class="container">
@@ -25,7 +24,7 @@
 							<?php if ( is_active_sidebar( 'footer-1' ) ) {
 								dynamic_sidebar( 'footer-1' );
 							} // end footer widget area 1 ?>
-						</div>	
+						</div>
 						<div class="col-4 col-md-4" id="footer-area-2">
 							<?php if ( is_active_sidebar( 'footer-2' ) ) {
 								dynamic_sidebar( 'footer-2' );
@@ -40,7 +39,7 @@
 				</div><!-- .container -->
 			</div><!-- .widget-area -->
 		<?php endif; ?>
-		
+
 		<?php if ( is_active_sidebar( 'footer-4' ) ) : ?>
 			<div class="widget-area" role="complementary">
 				<div class="container">
@@ -49,12 +48,12 @@
 							<?php if ( is_active_sidebar( 'footer-4' ) ) {
 								dynamic_sidebar( 'footer-4' );
 							} // end footer widget area 4 ?>
-						</div>	
+						</div>
 					</div>
 				</div><!-- .container -->
 			</div><!-- .widget-area -->
 		<?php endif; ?>
-		
+
 		<div class="footer-copy">
 			<div class="container">
 				<div class="row">
@@ -67,10 +66,10 @@
 						</div><!-- .site-info -->
 					</div>
 				</div>
-			</div><!-- .container -->
-		</div><!-- .footer-copy -->
-		
-	</footer><!-- #colophon -->
+			</div>
+		</div>
+
+	</footer>
 </div><!-- #page -->
 
 <span id="mobile-sidebar-overlay" on="tap:AMP.setState({ampmenu: !ampmenu})" class="mobile-sidebar-overlay"></span>

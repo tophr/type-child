@@ -5,7 +5,7 @@
  Author:       Topher McCulloch
  Author URI:   http://tophermcculloch.com/
  Template:     type
- Version:      1.0.5
+ Version:      1.0.6
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags: custom-background, custom-colors, custom-header, custom-menu, custom-logo, featured-images, flexible-header, footer-widgets, full-width-template, one-column, post-formats, right-sidebar, sticky-post, theme-options, translation-ready, two-columns, blog, e-commerce
@@ -23,10 +23,15 @@ ul#linkspage {
 }
 .linkcat {
   list-style-type: none;
-  float: left;
-  width: 25%;
-  margin: 0;
-  padding: 0 20px 10px 0;
+  @media screen and (min-width: 767px) {
+    float: left;
+    width: 50%;
+    margin: 0;
+    padding: 0 20px 10px 0;
+  }
+  @media screen and (min-width: 968px) {
+    width: 25%;
+  }
   box-sizing: border-box;
 }
 .linkcat:last-child {
@@ -147,6 +152,7 @@ ul#linkspage {
   list-style-type: none;
   margin: 0 0 30px 0;
   padding: 0;
+  font-size: 14px;
   li a {
     display: block;
     margin-bottom: 12px;
@@ -212,12 +218,12 @@ ul#linkspage {
     &.github:before {
       background-position: -144px -144px;
     }
-	&.mastodon:before {
-		background-position: left -192px;
-	}
-	&.spotify:before {
-	background-position: -48px -192px;
-	}
+    &.mastodon:before {
+      background-position: left -192px;
+    }
+    &.spotify:before {
+      background-position: -48px -192px;
+    }
     &.link:before {
       background-image: url(images/tm_personal_icons.svg);
       background-position: left top;
@@ -313,10 +319,42 @@ ul#linkspage {
     }
   }
   .featured-overlay {
-    background: linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0.7) 0,
-      rgba(0, 0, 0, 0) 100%
-    );
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0, rgba(0, 0, 0, 0) 100%);
+  }
+}
+
+// Customizer Custom CSS
+#footer-area-4 {
+  text-align: center;
+}
+
+.entry-content {
+  // font-size: 1.25rem;
+  // @media screen and (max-width: 767px) {
+  //   font-size: 1rem;
+  // }
+  @media screen and (min-width: 768px) {
+    font-size: 1.25em;
+  }
+}
+
+.tumblr-embed,
+.twitter-tweet {
+  display: inline-block !important;
+}
+
+.twitter-tweet iframe {
+  margin: 0 auto;
+  width: 100% !important;
+}
+
+.wp-block-embed__wrapper {
+  text-align: center;
+}
+
+@media screen and (min-width: 960px) {
+  .page-id-1010 .entry-content .row {
+    margin-left: -140px;
+    margin-right: -140px;
   }
 }
